@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/X-squad/static/css/main.073c9b0a.css",
+    "main.js": "/X-squad/static/js/main.3af0073d.js",
+    "static/js/787.4086ac9a.chunk.js": "/X-squad/static/js/787.4086ac9a.chunk.js",
+    "index.html": "/X-squad/index.html",
+    "main.073c9b0a.css.map": "/X-squad/static/css/main.073c9b0a.css.map",
+    "main.3af0073d.js.map": "/X-squad/static/js/main.3af0073d.js.map",
+    "787.4086ac9a.chunk.js.map": "/X-squad/static/js/787.4086ac9a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.3af0073d.js"
+  ]
+}
