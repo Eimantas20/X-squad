@@ -1,10 +1,19 @@
 import './App.css';
+import SignUp from './Component/landingPage/SignUp';
+import react, { useContext } from 'react';
+import HomePage from './Component/homePage/Homepage';
+import { LoginContext } from './Component/UserContext';
 
-function App() {
+const App = () => {
+
+  const [ logged ] = useContext(LoginContext);
+
   return (
-    <div className="App">
-      <h1>Task setup</h1>
-    </div>
+      <div className="App">
+        {!logged 
+        ? <SignUp />
+        :<HomePage />}
+      </div>
   );
 }
 

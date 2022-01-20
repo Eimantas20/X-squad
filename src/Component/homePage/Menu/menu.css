@@ -1,0 +1,30 @@
+[aria-expanded="false"] {
+    display: none;
+}
+
+[aria-expanded="true"] {
+    display: block;
+}
+
+.menu-button, .main-menu {
+    width: 200px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.menu-button:hover, .main-menu button:hover {
+    cursor:pointer;
+}
+
+.menu-button p {
+    margin: 0;
+} 
+
+.main-menu button {
+   border: none;
+   padding: 4px;
+   border-bottom: 1px solid black;
+   background-color: #fff;
+}
